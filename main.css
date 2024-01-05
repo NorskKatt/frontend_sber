@@ -1,0 +1,112 @@
+.header_logo {
+    width: 70px;
+    height: 70px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: url(img/pink.jpg) no-repeat;
+    border-radius: 15px;
+    background-position: center;
+    background-size: cover;
+}
+
+body {
+    font-family: 'Raleway';
+    color: rgb(7, 77, 94);
+    margin: 0;
+    padding: 10px;
+    background: url(img/pink.jpg) no-repeat;
+    border-radius: 15px;
+    background-position: center;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: crimson;
+    margin-right: 25px;
+  }
+
+header a {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.header_space {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button {
+    font-family: 'Raleway', sans—serif;
+    font-size: 20px;
+    color: #fff;
+    background-color: #701d5e;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 5px 25px rgba(128, 10, 55, 0.22);
+    padding: 7px;
+}
+
+.about_img {
+    width: 500px;
+}
+
+.about_logo {
+    width: 100px;
+    height: 100px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 115px;
+    padding-bottom: 115px;
+    max-width: fit-content;
+    background: url(img/pink.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.about h1 {
+    font-size: 70px;
+    line-height: 76px;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 30px;
+    opacity: 0.8;
+    width: 500px;
+}
+
+.about button {
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 20px 25px;
+    margin-top: 20px;
+}
+
+div {
+    margin: 10px;
+}
+
+.ssyl {
+    font-size: medium;
+    color: #fff;
+}
+
+.box {
+    padding: 25px;
+    margin: 50px;
+    background-color: green;
+    color: white;
+   }
