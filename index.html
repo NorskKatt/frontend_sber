@@ -23,11 +23,13 @@
             <img class="about_img" src="img/front.jpeg">
             <img class="about_logo" src="img/logo_front.png">
         </div>
-    </section class="form">
+    </section>
+    <section class="form">
     <div class="form__container">
-        <h1>Оставьте свои контакты</h1>
-        <p>Поможем подобрать нужный курс. <br> Гарантия трудоустройства.</p>
-        <form>
+        <form class="blank">
+            <form>
+            <h1>Оставьте свои контакты</h1>
+            <p>Поможем подобрать нужный курс. <br> Гарантия трудоустройства.</p>
             <div class="form__group">
                 <label for="name"></label>Имя
                 <input id="name" type="text" placeholder="Введите имя">
@@ -37,9 +39,8 @@
                 <input id="email" type="email" placeholder="***@yandex.ru">
             </div>
             <div class="form__group">
-                <label for="phone">Номер телефона
+                <label for="phone">Номер телефона</label>
                 <input id="phone" type="number" placeholder="7 (999) 999-99-99">
-                </label>
             </div>
             <div class="form__group">
             <label for="budget">Примерный бюджет</label>
@@ -51,6 +52,7 @@
             </select>
             </div>
             <button type="submit" class="form__submit">Подать заявку</button>
+            </form>
         </form>
     </div>
     </section>
