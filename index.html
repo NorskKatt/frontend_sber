@@ -23,10 +23,37 @@
             <img class="about_img" src="img/front.jpeg">
             <img class="about_logo" src="img/logo_front.png">
         </div>
+    </section class="form">
+    <div class="form__container">
+        <h1>Оставьте свои контакты</h1>
+        <p>Поможем подобрать нужный курс. <br> Гарантия трудоустройства.</p>
+        <form>
+            <div class="form__group">
+                <label for="name"></label>Имя
+                <input id="name" type="text" placeholder="Введите имя">
+            </div>
+            <div class="form__group">
+                <label for="email"></label>Почта
+                <input id="email" type="email" placeholder="***@yandex.ru">
+            </div>
+            <div class="form__group">
+                <label for="phone">Номер телефона
+                <input id="phone" type="number" placeholder="7 (999) 999-99-99">
+                </label>
+            </div>
+            <div class="form__group">
+            <label for="budget">Примерный бюджет</label>
+            <select id="budget">
+                <option value="10-30">10 000₽ – 30 000₽</option>
+                <option value="30-60">30 000₽ – 60 000₽</option>
+                <option value="60-100">60 000₽ – 100 000₽</option>
+                <option value="100+">100 000₽</option>
+            </select>
+            </div>
+            <button type="submit" class="form__submit">Подать заявку</button>
+        </form>
+    </div>
     </section>
-    <a href="https://google.com">
-        <img src="img/Google.png">
-       </a>
 </link>
 </body>
 </html>
